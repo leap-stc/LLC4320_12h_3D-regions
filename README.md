@@ -1,4 +1,4 @@
-# LEAP Template Feedstock
+# LLC4320_12h_3D-regions_feedstock
 This repository serves as template/documentation/testing ground for Leap-Pangeo Data Library Feedstocks.
 
 ## Setup
