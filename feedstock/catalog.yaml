@@ -1,16 +1,11 @@
 # All the information important to cataloging.
-"ncviewjs:meta_yaml_url": "https://github.com/leap-stc/proto_feedstock/blob/main/feedstock/meta.yaml" # !!! MAKE SURE TO POINT TO THIS REPOS meta.yaml !!!
+"ncviewjs:meta_yaml_url": "https://github.com/leap-stc/LLC4320_12h_3D-regions_feedstock/blob/main/feedstock/meta.yaml"
 tags:
-  - my-custom-tag
+  - llc4320
+  - m2lines
+  - ocean
   - zarr
 stores:
-  - id: "small"
-    name: "The cool small Proto Dataset"
-    url: "gs://leap-scratch/data-library/feedstocks/proto_feedstock/small.zarr"
-    "ncviewjs:rechunking":
-      - path: "gs://some-bucket/small.zarr"
-        use_case: "multiscales"
-
-  - id: "large"
-    name: "The even cooler large Proto Dataset" # no pyramids
-    url: "gs://leap-scratch/data-library/feedstocks/proto_feedstock/large.zarr"
+  - id: "agulhas"
+    name: "The Agulhas region subset"
+    url: "https://nyu1.osn.mghpcc.org/leap-pangeo-manual/LLC4320_12h_3D-regions/agulhas.zarr'"
