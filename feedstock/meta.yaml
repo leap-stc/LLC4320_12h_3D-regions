@@ -1,11 +1,8 @@
-title: "LEAP Data Library Prototype"
+title: "LLC4320_12h_3D-regions"
 description: >
-  A prototype test for the LEAP Data Library refactor
+  12 hourly 3D Data from several regions of the global LLC4320 simulation
 recipes:
-  - id: "small"
-    object: "recipe:small"
-  - id: "large"
-    object: "recipe:large"
+  - id: "agulhas"
 provenance:
   providers:
     - name: "Julius"
